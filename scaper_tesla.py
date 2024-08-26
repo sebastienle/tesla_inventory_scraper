@@ -55,7 +55,7 @@ queries = {
 }
 
 
-#for city in urls: 
+
 for query in queries: 
     print(datetime.now().strftime("%H:%M:%S") + " Searching Tesla's website for: " + query)
     tmp_inv_data = get_tesla_inventory(queries[query])
