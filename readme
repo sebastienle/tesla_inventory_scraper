@@ -1,4 +1,4 @@
-# Dumb as dirt API query for Tesla's used inventory
+#Dumb as dirt API query for Tesla's used inventory
 
 Everything I had found was using a querystring with URL which wasn't working for me. 
 This uses the API instead, but in a workaround kind of way. Queries sent through the requests library were all failing, so fell back on Selenium. 
